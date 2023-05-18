@@ -1,0 +1,5 @@
+@charset "utf-8";
+body{background-image: radial-gradient(circle,rgba(185, 8, 8, 0.959) ,rgba(109, 86, 89, 0.795) ,  green ); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;}
+h1{background-color: darkgrey; font-size: 1.2em; text-align: center;}
+h2{color: navy;}
+p{color: rgb(5, 53, 5); text-align: justify}}
