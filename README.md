@@ -1,13 +1,6 @@
 # html-css
- curso de html5 e css3
+ curso de HTML5 e CSS3
 
-    ul{
-    list-style-position: inside;
-    columns: 2;
-    list-style-type: '\2705\00a0\00a0';
-    }
-
-atualizando
 <ul>
     <li><a href="https://fernandoromeroalves.github.io/html-css/exercicios/ex001" target="_blank ">Exercicio001</a></li>
     <li><a href="https://fernandoromeroalves.github.io/html-css/exercicios/ex002" target="_blank ">Exercicio002</a></li>
