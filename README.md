@@ -1,12 +1,12 @@
 # html-css
  curso de html5 e css3
-<style>
+
     ul{
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2705\00a0\00a0';
     }
-</style>
+
 atualizando
 <ul>
     <li><a href="https://fernandoromeroalves.github.io/html-css/exercicios/ex001" target="_blank ">Exercicio001</a></li>
