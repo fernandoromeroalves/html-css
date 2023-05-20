@@ -1,7 +1,7 @@
 # html-css
  curso de HTML5 e CSS3
 
-<main>
+<main margin: auto>
     <ul>
     <li><a href="https://fernandoromeroalves.github.io/projeto-android/">projeto android</a></li>
         <li><a href="https://fernandoromeroalves.github.io/html-css/exercicios/ex001" target="_blank ">Exercicio001</a></li>
