@@ -1,7 +1,7 @@
 @charset "UTF8";
 
 body{
-    background-image: url('https://img.freepik.com/fotos-gratis/parede-de-concreto_53876-88973.jpg?w=740&t=st=1684611303~exp=1684611903~hmac=5eb5d91f5d7ec69ab15798834ddf9b2e822a5a69bd5f639f6cda85829cb4375d');
+    background-image: url('..//imagens/wallpaper003.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,8 +19,8 @@ div#q1{
     background-color: skyblue;
 }
 div#q2{
-    background-image: linear-gradient(to bottom, yellow, orange);
+    background-image: linear-gradient(to bottom, yellow, #be0000);
 }
 div#q3{
-    background-image: url('..//imagens/mittermeier.jpg');
+    background-image: url('..//imagens/pattern003.png');
 }
