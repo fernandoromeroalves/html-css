@@ -30,7 +30,7 @@ header{
 header h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte2);
+    font-family:Impact, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 10vw;
 }
 header p{
