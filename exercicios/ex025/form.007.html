@@ -7,8 +7,38 @@
 </head>
 <body>
     <h1>Exemplo de formúlario</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
-        
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="">...Escolha</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de janeiro</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profisão</label>
+            <input type="text" name="prof" id="iprof" list="istprof">
+            <datalist id="istprof">
+                <option>Professor</option>
+                <option>programador</option>
+                <option>pintor</option>
+                <option>picolezeiro</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
         
         <p>
             <input type="submit" value="Enviar">
