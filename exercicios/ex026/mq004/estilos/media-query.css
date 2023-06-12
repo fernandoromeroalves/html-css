@@ -22,8 +22,9 @@ grandes:acima de 1200px*/
         text-shadow: none;
 
     }
-    main::after{
-        content: Este documentio foi impresso atraves do site ;
+    body::after{
+        content: 'Este documentio foi impresso atraves do site https://github.com/fernandoromeroalves';
+        text-decoration: underline;
     }
 
     img#phone{display: none;}
