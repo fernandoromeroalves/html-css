@@ -7,16 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="castro.php" method="post">
+    <form action="castro.php" method="get" autocomplete="on">
+        <input type="hidden" name="country" value="br">
         <fieldset>
             <legend>Dados pessoais</legend>
             <label>
                 Primeiro nome: <br>
-                <input type="text" name="name">
+                <input type="text" name="name" placeholder="primeiro nome" required minlength="2" maxlength="10">
             </label><br>
             <label>
                 sobrenome: <br>
-                <input type="text" name="lastname">
+                <input type="text" name="lastname" placeholder="sobrenome" required minlength="2" maxlength="10">
+            </label> <br>
+            <label>
+                <label>
+                    Idade: <br>
+                    <input type="number" name="idade" min="18" max="150" placeholder="idade">
+                </label> <br>
+                e-mail: <br>
+                <input type="email" name="email" placeholder="e-mail" required autocomplete="email">
+            </label> <br>
+            <label>
+                Data de Nascimento: <br>
+                <input type="date" name="datanascimento" required min="1994-01-01" max="2020-01-01">
             </label> <br>
         </fieldset>
 
@@ -24,11 +37,11 @@
             <legend>Dados profissionais</legend>
             <label>
                 Nome da empresa: <br>
-                <input type="text" name="companyname">
+                <input type="text" name="companyname" placeholder="nome da empresa">
             </label> <br>
             <label>
                 Cargo na empresa: <br>
-                <input type="text" name="companyjobtitle">
+                <input type="text" name="companyjobtitle" placeholder="cargo">
             </label>
         </fieldset>
         <p><input type="submit" value="Cadastrar"></p>
