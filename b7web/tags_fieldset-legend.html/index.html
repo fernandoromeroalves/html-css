@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="castro.php" method="get" autocomplete="on">
+    <form action="castro.php" method="post" autocomplete="on" enctype="multipart/form-data">
         <input type="hidden" name="country" value="br">
         <fieldset>
             <legend>Dados pessoais</legend>
@@ -19,6 +19,10 @@
                 sobrenome: <br>
                 <input type="text" name="lastname" placeholder="sobrenome" required minlength="2" maxlength="10">
             </label> <br>
+            <label>
+                foto: <br>
+                <input type="file" name="photo" accept="image/*">
+            </label><br>
             <label>
                 <label>
                     Idade: <br>
