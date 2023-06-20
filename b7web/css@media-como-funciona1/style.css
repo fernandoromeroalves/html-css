@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(54, 175, 37, 0.603);
+}
+table, td, tr{
+    margin: 0px;
+    border: 5px  solid black;
+    padding: 0;    
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+
+}
+@media (min-width: 1000px) {
+    body{
+        background-color: blue;
+    }
+    h1{
+        font-size: 6em;
+    }
+    
+}
+@media (min-width: 700px) and (max-width: 999px) {
+    body{
+        background-color: blueviolet;
+    }
+    
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    body{
+        background-color: red
+    }
+    h1{
+        font-size: 2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+    }
+}
+@media print {
+    body{
+        
+    }
+    h1{
+        font-size: 5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
