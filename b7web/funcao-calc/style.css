@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+}
+div.conteiner{
+width: calc(100% - 20px);
+height: 200px;
+background-color: #ccc;
+border: 1px solid black;
+}

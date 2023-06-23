@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(to top, #0000008c, #0000ff86) ;
+}
+nav{
+    padding: 10px;
+}
+nav>li{
+    display: inline;
+    background-color: rgba(127, 255, 212, 0.295);
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+}
+main{
+    margin: auto;
+    text-align: justify;
+    width: max(70%, 600px);
+    background-color: rgba(127, 255, 212, 0.397);
+}
+footer{
+    background-color: rgba(0, 0, 255, 0.555);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
