@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tags de Input</h1>
+    <fieldset>
+        <legend>Cadastro de Exemplo</legend>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <label>
+                Usuario: 
+                <input type="text" name="search" placeholder="Usuario" autofocus size="15" maxlength="10" minlength="8" required autocomplete="off">
+            </label> <br>
+            <label>
+                Comentario: 
+                <input type="search" name="search" placeholder="Comentario" autofocus size="15" maxlength="44" minlength="15">
+            </label> <br>
+            <label for="">
+                e-mail 
+                <input type="email" name="email" required placeholder="e-mail" autocomplete="email"></label> <br>
+            <label for="">
+                URL 
+                <input type="url" name="url" required placeholder="URL"></label> <br>
+            <label for="">
+                telefone 
+                <input type="tel" name="tel " placeholder="telefone"></label> <br>
+                <label for="">
+                    cor 
+                    <input type="color"> <br>
+                </label>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        
+        </form>
+    </fieldset>
+</body>
+</html>
