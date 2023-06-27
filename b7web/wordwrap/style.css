@@ -1,0 +1,15 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 30px;
+}
+div.exemplo{
+    margin: 30px;
+    width: 150px;
+    height: 250px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
