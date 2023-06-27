@@ -1,0 +1,18 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+}
+
+figure{
+    margin: 0;
+    padding: 5px;
+    border: 1px solid black;
+    width: 350px;
+}
+figcaption{
+     margin: 0;
+     background-color: darkgray;
+     color: white;
+     padding: 5px;
+     width:350px;
+}
