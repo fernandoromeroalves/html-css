@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menumobile").addEventListener("click", function(){
+                if(document.querySelector("menu nav ul").style.display =='flex'){ document.querySelector("menu nav ul").style.display = 'none';}
+                else{
+                    document.querySelector("menu nav ul ").style.display = 'flex';
+                }
+            })
+        }
+    </script>
+    <title>Exercício: Uma página de apresentação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <a href="#"><img src="imagens/sansung.png" alt="logo"></a>
+            </div>
+            <div>
+                <menu>                 
+                    <nav>
+                        <div class="menumobile">
+                            <div class="m_line"></div>
+                            <div class="m_line"></div>
+                            <div class="m_line"></div>
+                        </div>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">MENU</a></li>
+                            <li><a href="#">CONTATOS</a></li>
+                        </ul>
+                    </nav>
+                </menu>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="pros">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+                <ul>
+                    <li>rapido</li>
+                    <li>mais espaço de armazenamento</li>
+                    <li>novo design</li>
+                    <li>leve</li>
+                    <li>melhor processador</li>
+                    <li>maior duração de bateria</li>
+                    <li>elegante</li>
+                </ul>
+            </div>
+            <div class="celular">
+                <img src="imagens/ce.webp" alt="celular">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet 
+        </h1>
+        <p>
+            dolores labore illum, animi aliquid sunt quod. Quibusdam natus cum e!
+        </p>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="imagens/pngwing.com.png" alt="cadeado"></a>
+            </div>
+            <div class="texto">
+                <h3>Lorem ipsum</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nesciunt repellat vel, doloribus eligendi dolore ullam, 
+                </p>
+            </div>
+            <div class="logo">
+                <a href=""><img src="imagens/prancheta.jpg" alt="prancheta"></a>
+            </div>
+            <div class="texto">
+                <h3>Lorem ipsum</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nesciunt repellat vel, doloribus eligendi dolore ullam, 
+                </p>
+            </div>
+            <div class="logo">
+               <a href=""><img src="imagens/engrenagem.png" alt="engrenagem"></a>
+            </div>
+            <div class="texto">
+                <h3>Lorem ipsum</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nesciunt repellat vel, doloribus eligendi dolore ullam, 
+                </p>
+            </div>
+        </div>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur .
+        </p>
+    </footer>
+    
+</body>
+</html>
