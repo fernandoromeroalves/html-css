@@ -1,0 +1,113 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: #202124;
+    color: white;
+    height: 615px;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: end;
+}
+header .gmail{
+    margin-top: 23px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .gmail a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.gmail a:hover{
+    text-decoration: underline;
+}
+.headerimg{
+    margin-top: 14px;
+}
+.headerimg img{
+    width: 34px;
+}
+.headerimg a{
+    padding: 11px;    
+}
+.logoprincipal{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.barrabusca{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    
+}
+.botao a{
+    background-color: #303134;
+    text-decoration: none;
+    color: white;
+    height: 36px;
+    width: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 11px;
+    font-size: 14px;
+    border-radius: 3px;    
+}
+.botao a:hover{
+    border: 1px solid #998C71;
+}
+footer{
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 229px;
+    
+}
+.brasil{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3px;
+    background-color: #171717;
+    height: 47px;
+    color: #9AA0A6;
+    padding-left: 30px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+    height: 47px;
+    margin-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: #9AA0A6;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+.links a:hover{
+    text-decoration: underline;
+}
