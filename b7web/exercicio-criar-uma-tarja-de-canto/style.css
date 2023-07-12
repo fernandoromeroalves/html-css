@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.tarja{
+    border: 5px double  white;
+    padding: 15px;
+    text-align: center;
+    width: 350px;
+    background-color: dodgerblue;
+    position: fixed;
+    transform: rotate(-45deg);
+    left: -100px;
+    top: 50px;
+    box-shadow: 1px 1px 3px dodgerblue;    
+}
+.tarja a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+    
+}

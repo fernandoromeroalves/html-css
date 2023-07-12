@@ -1,0 +1,17 @@
+@charset "UTF-8";
+table{
+    border-collapse: collapse;
+}
+table  th, td{
+    border: 1px solid black;
+}
+table td:hover{
+    background-color: blue;
+    color: white;
+}
+thead{
+    background-color: darkgrey;
+}
+tbody tr:nth-last-child(even){
+    background-color: rgb(3, 170, 3);
+}
