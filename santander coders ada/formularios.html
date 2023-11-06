@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios html</title>
+</head>
+<body>
+    <main>
+        <h1>formulario</h1>
+        <hr>
+        <br>
+        <form action="cadastro.php" method="get">
+            <div>
+                <label for="texto"> nome:</label>
+                <input name="nome" id="texto" type="text" value="" placeholder="preencha seu nome..."> <br>
+            </div>
+            <div>
+                <label for="senha">senha</label>
+                <input type="password" name="senha" id="senha" placeholder="informe sua senha">
+            </div>
+            <div>
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" name="nascimento" id="nascimento">
+            </div>
+            <div>
+                <label for="email">e-mail</label>
+                <input type="email" name="email" id="email" placeholder="digite seu email" required>
+            </div>
+            <div>
+                <label for="idade">idade</label>
+                <input type="number" placeholder="idade" id="idade" min="18" max="84">
+            </div>
+            <div>
+                <label for="hora">horario</label>
+                <input type="time" name="time" id="time" placeholder=" marque o horario">
+            </div>
+            <div>
+                <label for="file"> file</label>
+                <input type="file" name="file" id="file" placeholder="carregue seu arquivo">
+            </div>
+            <div>
+                <label for="url">url</label>
+                <input type="url" name="url" id="url" placeholder="carregar url">
+            </div>
+            <div>
+                <label for="range">range</label>
+                <input type="range" max="200" >
+            </div>
+            <div>
+                <label for="color">color</label>
+                <input type="color">
+            </div>
+            <div>
+                <label for="check">chekbox</label>
+                <input type="checkbox" checked >
+            </div>
+            <div>
+                <label for="reset">reset</label>
+                <input type="reset" placeholder="limpar" value="limpar">
+            </div>
+            <div>
+                <input type="submit" value="enviar">
+            </div>
+            
+        </form>
+    </main>
+    
+</body>
+</html>
