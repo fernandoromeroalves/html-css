@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, Helvetica,  sans-serif;
+}
+body {
+    
+}
+main{
+    padding-top: 70px;
+}
+.bg{
+    width: 100%;
+    height: 55vh;
+    background-image: url(https://images.unsplash.com/photo-1504556106489-6d450910aeb3?q=80&w=1490&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+a{
+    font-size: 20px;
+    color: blue;
+}
+a:visited{
+    color: rgb(43, 226, 73);
+}
+a:hover{
+    color: brown;
+}
+.novo-em{
+    font-size: 185%;
+}
+h1{
+    color: rgb(2, 2, 163);
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.712), rgba(137, 137, 247, 0.719));
+    padding: 10px;
+    font-size: 80px;
+    width: 80%;
+    border-radius: 30px;
+    border: 5px solid black;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.733);
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 3.4rem;
+}
+p{
+    font-size: 22px;
+    text-decoration: ;
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 10px;
+
+
+}
+table{
+
+border-collapse: collapse;
+border: 3px solid #000;
+}
+td, tr, th{
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+thead tr:first-child{
+    background-color: blue;
+    color: white;
+}
+table tr:nth-child(2n+2){
+    background-color: #799;
+}
+td:hover{
+    background-color: rgba(127, 255, 212, 0.788);
+}
+ul, ol {
+    padding-left: 40px;
+    
+}
+ul{
+    list-style: square;
+}
+ol{
+    list-style: upper-alpha;
+}
+.menu{
+    position: fixed;
+    background-color: steelblue;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.boxes{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box{
+    flex: 30%;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 200px;
+    border: 5px solid black;
+    display: inline-block;
+    border-radius: 6px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+.box + span{
+    display: none;
+}
+.box:nth-child(1){
+    
+}
+/*.box:nth-child(2){
+    position: fixed;
+    top:15px ;
+    right: 30px; 
+} */
+
+img{
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+}
+.contact-list h2{
+    font-size: 20px;
+    top: 70px;
+    position: sticky;
+    background-color: green;
+}
