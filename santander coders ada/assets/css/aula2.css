@@ -47,6 +47,24 @@ h1{
     text-align: center;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s ease-in-out;
+    animation: pulse 3s alternate-reverse;
+}
+@keyframes pulse{
+    0%{
+
+    }
+    100%{
+        background-color: blue;
+    color: white;
+    padding: 30px;
+    }
+}
+h1:hover{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+
 }
 h2{
     font-size: 3.4rem;
@@ -137,4 +155,32 @@ img{
     top: 70px;
     position: sticky;
     background-color: green;
+}
+
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 35px;
+        text-align: center;
+        width: 85vw;
+    }
+    h2{
+        text-align: center;
+        font-size: 25px;
+        margin: 20px;
+    }
+    table{
+        margin: auto;
+    }
+    ol, ul{
+        margin-left: 100px;
+    }
+    .menu{
+        position: relative;
+    }
+    .contact-list h2{
+        font-size: 30px;
+        top: 0px;
+        margin: 0;
+
+    }
 }
